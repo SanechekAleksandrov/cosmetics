@@ -1,0 +1,5 @@
+    <svg width="170" height="60" viewBox="0 0 230 60" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="40" font-family="Arial, sans-serif" font-size="40" fill="#000" font-weight="bold">GOOD</text>
+          <text x="125" y="45" font-family="Arial, sans-serif" font-size="40" fill="orange" font-weight="bold">4</text>
+          <text x="150" y="40" font-family="Arial, sans-serif" font-size="40" fill="#000" font-weight="bold">ME</text>
+      </svg>
