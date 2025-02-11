@@ -5,62 +5,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Good4Me</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <a class="logo" href="#">
-      <img class="logo__img" src="img/logo.svg" alt="Logo">
-    </a>
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a class="menu__link" href="#">home</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">SHOP</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">FAQ'S</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">STOCKISTS</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">WHOLESALE</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">CONTACT</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="user__nav">
-      <a class="user__search" href="#" title="Search">
-        <img class="user__search-img" src="img/header/user-search.svg" alt="Search">
-      </a>
-      <a class="user__profile" href="#" title="User profile">
-        <img class="user__profile-img" src="img/header/user-profile.svg" alt="User Profile">
-      </a>
-      <a class="user__cart" href="#" title="Cart">
-        <img class="user__cart-img" src="img/header/user-cart.svg" alt="Cart">
-      </a>
+    <div class="container">
+      <div class="header__top">
+        <a class="logo" href="#">
+          <img class="logo__img" src="img/logo.svg" alt="Logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">SHOP</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">FAQ'S</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">STOCKISTS</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">WHOLESALE</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user__nav">
+          <a class="user__search" href="#" title="Search">
+            <img class="user__search-img" src="img/header/user-search.svg" alt="Search">
+          </a>
+          <a class="user__profile" href="#" title="User profile">
+            <img class="user__profile-img" src="img/header/user-profile.svg" alt="User Profile">
+          </a>
+          <a class="user__cart" href="#" title="Cart">
+            <img class="user__cart-img" src="img/header/user-cart.svg" alt="Cart">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header__main">
+      <div class="container header__main-container">
+        <div class="header__main-inner">
+          <div class="header__main-suptitle">Good4Me</div>
+          <h1 class="header__main-title">MULTI-VITAMIN </br>
+            (3 MONTH SUPPLY)</h1>
+          <p class="header__main-subtitle">Good4Me Apple Cider Vinegar gummies are the newest addition to your morning
+            health and well-being regime.</p>
+          <button class="header__main-btn">shop now</button>
+        </div>
+        <img class="header__main-bg" src="img/header/main.png" alt="Background">
+      </div>
     </div>
   </header>
-  <main class="main">
-    <section class="header__main">
-      <div class="header__main-inner">
-        <div class="header__main-suptitle">Good4Me</div>
-        <h1 class="header__main-title">MULTI-VITAMIN </br>
-          (3 MONTH SUPPLY)</h1>
-        <p class="header__main-subtitle">Good4Me Apple Cider Vinegar gummies are the newest addition to your morning
-          health and well-being regime.</p>
-        <button class="header__main-btn">shop now</button>
-      </div>
-      <img class="header__main-bg" src="img/header/main.png" alt="Background" >
-    </section>
-    <section class="info">
+  <section class="info">
+    <div class="container">
       <div class="info__text">
         <div class="info__text-profits">
           <p>gluten free</p>
@@ -79,7 +86,8 @@
             Quality Assured
           </h2>
           <p class="info__quality-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            Every product undergoes rigorous testing at every stage of production to meet the highest standards. We
+            guarantee exceptional quality that provides your skin with the care and comfort it deserves.
           </p>
         </div>
         <div class="info__quality-item">
@@ -88,7 +96,8 @@
             Clean Ingredients
           </h2>
           <p class="info__quality-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            Our formulas contain only carefully selected natural ingredients that are safe for your skin. No hidden
+            additives—just pure, effective formulations created with your well-being in mind.
           </p>
         </div>
         <div class="info__quality-item">
@@ -97,42 +106,111 @@
             Chemical Free
           </h2>
           <p class="info__quality-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            We've eliminated harsh chemicals so your skin receives only the best natural ingredients. Enjoy safe,
+            toxin-free skincare without synthetic additives or irritants.
           </p>
         </div>
       </div>
-    </section>
-    <section class="profit">
-      <div class="profit__description">
-        <div class="profit__item">
-          <h3 class="profit__item-title">Beauty begins with self-care – love your skin!</h3>
-          <p class="profit__item-text">Gentle, effective, and nourishing. Give your skin the attention it deserves with premium care for a fresh, glowing look.</p>
+    </div>
+  </section>
+  <section class="profit">
+    <div class="profit__description">
+      <div class="profit__item">
+        <h3 class="profit__item-title">Beauty begins with self-care – love your skin!</h3>
+        <p class="profit__item-text">Gentle, effective, and nourishing. Give your skin the attention it deserves with
+          premium care for a fresh, glowing look.</p>
+      </div>
+      <div class="profit__item">
+        <h3 class="profit__item-title">Glow every day – your natural beauty!</h3>
+        <p class="profit__item-text">Reveal your skin’s natural radiance. Light, fresh, and nourishing care for a
+          flawless, healthy glow every day.</p>
+      </div>
+      <div class="profit__item">
+        <h3 class="profit__item-title">Perfect care – softness in every drop!</h3>
+        <p class="profit__item-text">Deep hydration and silky smoothness. A delicate touch that nourishes, protects,
+          and keeps your skin radiant all day.</p>
+      </div>
+      <div class="profit__item">
+        <h3 class="profit__item-title">Your skin deserves the best – try it now!</h3>
+        <p class="profit__item-text">Pure ingredients, visible results. Pamper your skin with nature’s finest formulas
+          for deep care, hydration, and lasting beauty.</p>
+      </div>
+    </div>
+    <div class="profit__info">
+      <h2 class="profit__info-title">take control of your health</h2>
+      <p class="profit__info-text">Pure ingredients, visible results. Pamper your skin with nature’s finest formulas
+        for deep care and lasting beauty!</p>
+      <p class="profit__info-text">Our vitamins are here and ready to boost your mood. New Zealand from local and
+        imported ingredients.
+      </p>
+      <button class="profit__info-btn">browse our range</button>
+    </div>
+  </section>
+  <section class="slider">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/slider/1.png" alt="" class="swiper-img">
+          <div class="swiper__description">
+            <div class="swiper__title">VITAMIN C: IMMUNITY SUPPORT (3 MONTH SUPPLY)</div>
+            <div class="swiper__price">
+              <p class="swiper__newprice">CHF 85</p>
+              <div class="swiper__oldprice">CHF 120</div>
+            </div>
+            <div class="swiper__text">
+              <p>Adults take 2 soft chews daily or as advised by your healthcare professional. Our vitamins are designed to support your mood, immunity, and overall well-being. Made in New Zealand from local and imported ingredients.</p>
+            </div>
+            <button class="swiper__button">shop now</button>
+          </div>
         </div>
-        <div class="profit__item">
-          <h3 class="profit__item-title">Glow every day – your natural beauty!</h3>
-          <p class="profit__item-text">Reveal your skin’s natural radiance. Light, fresh, and nourishing care for a flawless, healthy glow every day.</p>
+        <div class="swiper-slide">
+          <img src="img/slider/2.png" alt="" class="swiper-img">
+          <div class="swiper__description">
+            <div class="swiper__title">MULTIVITAMIN: IMMUNE HEALTH SUPPORT (3-MONTH SUPPLY)</div>
+            <div class="swiper__price">
+              <p class="swiper__newprice">CHF 70</p>
+              <div class="swiper__oldprice">CHF 100</div>
+            </div>
+            <div class="swiper__text">
+              <p>Take 2 soft chews daily or follow the advice of your healthcare provider. Formulated to promote overall well-being, boost immunity, and enhance mood. Proudly made in New Zealand using both local and imported ingredients.</p>
+            </div>
+            <button class="swiper__button">shop now</button>
+          </div>
         </div>
-        <div class="profit__item">
-          <h3 class="profit__item-title">Perfect care – softness in every drop!</h3>
-          <p class="profit__item-text">Deep hydration and silky smoothness. A delicate touch that nourishes, protects, and keeps your skin radiant all day.</p>
+        <div class="swiper-slide">
+          <img src="img/slider/1.png" alt="" class="swiper-img">
+          <div class="swiper__description">
+            <div class="swiper__title">VITAMIN C: IMMUNITY SUPPORT (3 MONTH SUPPLY)</div>
+            <div class="swiper__price">
+              <p class="swiper__newprice">CHF 50</p>
+              <div class="swiper__oldprice">CHF 90</div>
+            </div>
+            <div class="swiper__text">
+              <p>Adults take 2 soft chews daily or as advised by your healthcare professional. Our vitamins are designed to support your mood, immunity, and overall well-being. Made in New Zealand from local and imported ingredients.</p>
+            </div>
+            <button class="swiper__button">shop now</button>
+          </div>
         </div>
-        <div class="profit__item">
-          <h3 class="profit__item-title">Your skin deserves the best – try it now!</h3>
-          <p class="profit__item-text">Pure ingredients, visible results. Pamper your skin with nature’s finest formulas for deep care, hydration, and lasting beauty.</p>
+        <div class="swiper-slide">
+          <img src="img/slider/2.png" alt="" class="swiper-img">
+          <div class="swiper__description">
+            <div class="swiper__title">MULTIVITAMIN: IMMUNE HEALTH SUPPORT (3-MONTH SUPPLY)</div>
+            <div class="swiper__price">
+              <p class="swiper__newprice">CHF 100</p>
+              <div class="swiper__oldprice">CHF 140</div>
+            </div>
+            <div class="swiper__text">
+              <p>Take 2 soft chews daily or follow the advice of your healthcare provider. Formulated to promote overall well-being, boost immunity, and enhance mood. Proudly made in New Zealand using both local and imported ingredients.</p>
+            </div>
+            <button class="swiper__button">shop now</button>
+          </div>
         </div>
       </div>
-        <div class="profit__info">
-          <h2 class="profit__info-title">take control of your health</h2>
-          <p class="profit__info-text">Pure ingredients, visible results. Pamper your skin with nature’s finest formulas for deep care and lasting beauty!</p>
-          <p class="profit__info-text">Our vitamins are here and ready to boost your mood. New Zealand from local and imported ingredients.
-          </p>
-          <button class="profit__info-btn">browse our range</button>
-        </div>
-    </section>
-    <section class="slider">
-      
-    </section>
-  </main>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
