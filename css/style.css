@@ -263,6 +263,10 @@ body {
   margin-bottom: 15px;
 }
 
+.profit__info{
+  padding-right: 50px;
+}
+
 .profit__info-title {
   font-weight: 700;
   font-size: 44px;
@@ -292,7 +296,7 @@ body {
 .slider {
   background-color: #FFF8F6;
   border-radius: 0px 0px 0px 200px;
-  margin: 0 auto;
+  margin-bottom: 75px;
 }
 
 .swiper-slide {
@@ -308,6 +312,7 @@ body {
   height: 600px;
   max-width: 1920px;
   padding: 150px;
+  margin: 0 auto;
 }
 
 .swiper-img {
@@ -328,7 +333,6 @@ body {
 .swiper__description{
   max-width:750px;
 }
-
 
 .swiper__price {
   display: flex;
@@ -393,4 +397,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.products{
+  margin-bottom: 100px;
+}
+
+.products-container{
+  display: flex;
 }
