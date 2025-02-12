@@ -299,13 +299,13 @@ body {
   margin-bottom: 75px;
 }
 
-.swiper-slide {
+.swiper-slide--one {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.swiper {
+.swiperOne {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -405,4 +405,105 @@ body {
 
 .products-container{
   display: flex;
+  justify-content: space-between;
 }
+
+.products__info-inner{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.products__info{
+  max-width:800px;
+} 
+
+.products__suptitle {
+  color:#F6623E;
+  font-weight: 700;
+  line-height: 82px;
+}
+.products__title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  margin-bottom: 35px;
+}
+.products__text {
+  font-size: 22px;
+  color: #9D9D9D;
+  margin-bottom: 80px;
+}
+
+.swiperTwo { 
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-slide--two img {
+  width: 300px;
+  height: 225px;
+  border-radius: 10px;
+}
+
+.products__slider-img{
+  margin-bottom: 10px;
+}
+
+.products__slider-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.products__slider-price {
+  text-transform: uppercase;
+  display: flex;
+  gap: 0 5px;
+}
+.products__slider-newprice {
+  color: #F6623E;
+  font-size: 20px;
+}
+.products__slider-oldprice {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px; 
+  color: #9D9D9D;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.swiper-button-next::after, 
+.swiper-button-prev::after{
+  position: absolute;
+  content:'';
+}
+
+.swiper-button-prev, .swiper-button-next{
+  background-repeat: no-repeat;  
+  background-position: 50% 50%;
+  background-color: white;
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;  
+  top: 50%;
+  transform:translateY(-50%);
+}
+
+.swiper-button-prev:hover, 
+.swiper-button-next:hover{
+  background-color:#F6623E;
+  transition: all 0.4s ease-in-out;
+}
+
+.swiper-button-prev{
+  background-image: url(../img/product/left.svg);
+
+}
+
+.swiper-button-next{
+  background-image: url(../img/product/right.svg);
+  right: 30px;
+}
+
+
+
