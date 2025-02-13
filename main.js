@@ -27,17 +27,3 @@ const swiperTwo = new Swiper('.swiperTwo', {
       prevEl: '.swiper-button-prev'
     }
 })
-
-gsap.registerPlugin(ScrollTrigger);
-
-gsap.utils.toArray(".info").forEach((el, index) => {
-  gsap.to(el, {
-    y: index % 2 === 0 ? -50 : 50, // Чередуем направления
-    opacity: 1,
-    scrollTrigger: {
-      trigger: ".parallax-section",
-      start: "top 80%", 
-      scrub: 2,
-    }
-  });
-});

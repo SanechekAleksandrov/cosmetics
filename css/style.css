@@ -817,5 +817,36 @@ body {
   bottom: 2px;
 }
 
+.gallery{
+  background-image: url(../img/gallery/bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.gallery__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px 0;
+}
+
+.gallery__photos{
+  display: flex;
+  gap: 0 40px;
+}
+
+.gallery__photos img:nth-child(even){
+  transform: translateY(55px);
+}
+
+.gallery__logo{
+  width: 425px;
+  height: 45px;
+  margin-bottom: 90px;
+}
+
+
+
+
 
 
