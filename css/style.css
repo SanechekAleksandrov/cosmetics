@@ -505,5 +505,129 @@ body {
   right: 30px;
 }
 
+.bottle{
+  margin-bottom: 100px;
+  padding:100px 335px;
+  background-color: rgb(255, 248, 246);
+  border-radius: 0 0 0 200px;
+}
 
+.bottle__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.bottle__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 15px;
+}
+.bottle__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color:#9D9D9D; 
+  margin-bottom: 85px;
+}
+
+.bottle__box{
+  position: relative;
+
+}
+
+.bottle__box-item{
+  cursor: pointer;
+}
+
+.bottle__box-item img{
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.bottle__box-item:hover img{
+  opacity: 1;
+  transition: opacity 0.7s ease-in-out;
+}
+
+
+
+.arrowOne, .arrowTwo, .arrowThree, .arrowFour, .arrowFive, .arrowSix {
+  position: absolute;
+  content:'';
+}
+
+.arrowOne, .arrowTwo, .arrowThree{
+  left: 40px;
+}
+.arrowOne{
+  top:120px;
+}
+.arrowTwo{
+  bottom: 340px;
+}
+.arrowThree{
+  bottom: 100px;
+}
+
+.arrowFour, .arrowFive, .arrowSix{
+  right: -30px;
+}
+.arrowFour{
+  top:135px;
+}
+.arrowFive{
+  top:360px;
+}
+.arrowSix{
+  bottom: 100px;
+}
+
+
+.bottle__box-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 2px;
+  color: #F6623E;
+}
+
+.bottle__box-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.bottle__box-info--one, .bottle__box-info--two, .bottle__box-info--three, .bottle__box-info--four, .bottle__box-info--five, .bottle__box-info--six {
+  position: absolute;
+  content:'';
+  max-width: 325px;
+}
+.bottle__box-info--one{
+  top: 110px;
+  left: -270px;
+}
+.bottle__box-info--two{
+  left: -270px;
+    bottom: 255px;
+}
+.bottle__box-info--three{
+  bottom: 20px;
+    left: -270px;
+}
+.bottle__box-info--four{
+  top: 110px;
+  right: -365px;
+}
+.bottle__box-info--five{
+  right: -365px;
+    top: 340px;
+}
+.bottle__box-info--six{
+  bottom: 30px;
+  right: -365px;
+}
 
