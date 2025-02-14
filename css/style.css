@@ -664,8 +664,83 @@ body {
   right: -365px;
 }
 
+.review{
+  margin-bottom: 120px;
+}
+
+.review__title{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 62px;
+  text-align: center;
+  margin-bottom: 150px;
+}
 
 
+
+.review{
+  background-image: url(../img/review/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+.swiper-review{
+  overflow: hidden;
+}
+
+.swiper-slide--review{
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-right: 50px;
+  padding:30px;
+}
+
+.swiper-slide--review__top{
+  display: flex;
+}
+
+.swiper-slide--review__img{
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.swiper-slide--review__author{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px 0;
+}
+
+.swiper-slide--review__author-name{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+}
+.swiper-slide--review__author-position{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #F6623E;
+}
+
+.swiper-slide--review__quote{
+  margin-left: auto;
+  margin-right: 25px;
+}
+.swiper-slide--review__text{
+  width: 430px;
+}
+
+.swiper-pagination--review{
+  position: relative;
+}
 
 
 

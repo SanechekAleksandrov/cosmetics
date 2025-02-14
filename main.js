@@ -20,10 +20,23 @@ const swiperTwo = new Swiper('.swiperTwo', {
   autoplay: {
     delay: 3000,
   },
-  slidesPerView: 3, // Показывать 3 слайда одновременно
-    spaceBetween: 20, // Отступ между слайдами (по желанию)
+  slidesPerView: 3,
+    spaceBetween: 20,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     }
+})
+
+const swiperReview = new Swiper('.swiper-review', {
+  direction: 'horizontal',
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  slidesPerView: 3,
+  pagination: {
+    el: '.swiper-pagination--review',
+    clickable: true
+  }
 })
