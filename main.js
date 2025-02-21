@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiperOne = new Swiper('.swiperOne', {
   direction: 'vertical',
   loop: true,
   autoplay: {
@@ -28,15 +28,17 @@ const swiperTwo = new Swiper('.swiperTwo', {
     }
 })
 
-const swiperReview = new Swiper('.swiper-review', {
+const sliderReview = new Swiper('.sliderReview', {
   direction: 'horizontal',
   loop: true,
   autoplay: {
     delay: 3000,
   },
+  spaceBetween: 75,
   slidesPerView: 3,
+  centeredSlides: true,
   pagination: {
-    el: '.swiper-pagination--review',
+    el: '.paginationTwo',
     clickable: true
   }
-})
+});
