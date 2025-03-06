@@ -34,7 +34,7 @@ const sliderReview = new Swiper('.sliderReview', {
   autoplay: {
     delay: 3000,
   },
-  spaceBetween: 75,
+  spaceBetween: 125,
   slidesPerView: 3,
   centeredSlides: true,
   pagination: {
